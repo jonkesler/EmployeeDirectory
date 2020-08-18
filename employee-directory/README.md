@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# EmployeeDirectory
 
-## Available Scripts
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-In the project directory, you can run:
+![GitHub contributors](https://img.shields.io/github/contributors/jonkesler/budgetTracker)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jonkesler/budgetTracker?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/jonkesler/budgetTracker)
 
-### `npm start`
+# Online / Offline Budget Tracker
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Description 
+    
+This Budget Tracker will allow you to lable and add or subtact transactions related to your budget.  It will keep a running total of your budget, show a graph of your budget and work on or off line.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This application uses a front end implemented with HTML/CSS and the backend implemented with Node.js, Express, a Mongo DB, and an indexedDb.
 
-### `npm run build`
+The user may enter any budget item and the app will track it.  Once the add of subtract button is clicked, the app adds the transaction to a Mongo database if online.  If offline the transaction will be stored locally in an indexedDb and once back online it will automatically update the Mongo database.
+ 
+    
+## Table of Contents
+    
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Contact](#contact)
+    
+    
+## Installation
+    
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the application locally, first clone this repository with the following command.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+        git clone git@github.com:jonkesler/budgetTracker.git for the SSH Repository 
+        or 
+        git clone https://github.com/jonkesler/budgetTracker.git for the HTTPS Repository
+        
+Next, install the application dependencies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        With Visual Studio, navigate to the budgetTracker directory created when you cloned the Repository.
+        Right click on the server.js file and open a terminal.
+        run npm install
+     
+Now, run the application in node.
 
-### `npm run eject`
+        npm start
+        
+Finally, open the local application on port 3000 at the URL: `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Happy budgeting!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+      
+## Demo
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+A demo of the Online/Offline Budget Tracker application can be found [here] *NOT WROKING - no herokupapp for Mongo*(https://jkeslerbudgettracker.herokuapp.com/).
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+This Project uses a MIT License License.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+## Contributing
+    
+Jon Kesler
+    
+    
+## Contact
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+If you would like to contribute to this project please contact: 
+  Jon Kesler 
+  Email:jkesler@hotmail.com   
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Web URL: https://jkeslerbudgettracker.herokuapp.com/  **NOT WROKING - no mongo db for heroku*
 
-### Advanced Configuration
+GitHub URL: https://jonkesler.github.io/EmployeeDirectory/
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Repository SSH:  git@github.com:jonkesler/EmployeeDirectory.git
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Repository URL:  https://github.com/jonkesler/EmployeeDirectory.git
