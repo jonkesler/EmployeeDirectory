@@ -56,7 +56,7 @@ Finally, open the local application on port 3000 at the URL: `http://localhost:3
       
 ## Demo
 
-A demo of the Online/Offline Budget Tracker application can be found [here] *NOT WROKING - no herokupapp for Mongo*(https://jkeslerbudgettracker.herokuapp.com/).
+A demo of the Online/Offline Budget Tracker application can be found [here](https://jkesleremployeedirectory.herokuapp.com/).
 
 
 
@@ -77,7 +77,7 @@ If you would like to contribute to this project please contact:
   Email:jkesler@hotmail.com   
 
 
-Web URL: https://jkeslerbudgettracker.herokuapp.com/  **NOT WROKING - no mongo db for heroku*
+Web URL: https://jkesleremployeedirectory.herokuapp.com/
 
 GitHub URL: https://jonkesler.github.io/EmployeeDirectory/
 
