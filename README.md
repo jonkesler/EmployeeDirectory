@@ -54,7 +54,7 @@ Finally, the application will open in your default browser.  The URL will be `ht
 
 ## Demo
 
-A demo of the Online/Offline Budget Tracker application can be found [here](https://jkesleremployeedirectory.herokuapp.com/).
+A demo of the Online/Offline Budget Tracker application can be found [here](https://jonkesler.github.io/EmployeeDirectory/).
 
 
 
@@ -75,9 +75,7 @@ If you would like to contribute to this project please contact:
   Email:jkesler@hotmail.com   
 
 
-Web URL: https://jkesleremployeedirectory.herokuapp.com/
-
-GitHub URL: https://jonkesler.github.io/EmployeeDirectory/
+Web URL: https://jonkesler.github.io/EmployeeDirectory/
 
 Repository SSH:  git@github.com:jonkesler/EmployeeDirectory.git
 
