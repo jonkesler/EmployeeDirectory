@@ -2,11 +2,11 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-![GitHub contributors](https://img.shields.io/github/contributors/jonkesler/budgetTracker)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jonkesler/budgetTracker?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/jonkesler/budgetTracker)
+![GitHub contributors](https://img.shields.io/github/contributors/jonkesler/EmployeeDirectory)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jonkesler/EmployeeDirectory?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/jonkesler/EmployeeDirectory)
 
-# Online / Offline Budget Tracker
+# EmployeeDirectory
 
 
 
@@ -14,9 +14,9 @@
     
 This Budget Tracker will allow you to lable and add or subtact transactions related to your budget.  It will keep a running total of your budget, show a graph of your budget and work on or off line.
 
-This application uses a front end implemented with HTML/CSS and the backend implemented with Node.js, Express, a Mongo DB, and an indexedDb.
+This application uses a front end implemented with HTML/CSS and an API to return a list of employees that is searchable and sortable by the first name..
 
-The user may enter any budget item and the app will track it.  Once the add of subtract button is clicked, the app adds the transaction to a Mongo database if online.  If offline the transaction will be stored locally in an indexedDb and once back online it will automatically update the Mongo database.
+The search will search on keystroke so no need for a search button.  Clicking on the First Name table heading will sort assending first then if clicked again it will sort desending.
  
     
 ## Table of Contents
@@ -34,26 +34,24 @@ The user may enter any budget item and the app will track it.  Once the add of s
 
 To run the application locally, first clone this repository with the following command.
 
-        git clone git@github.com:jonkesler/budgetTracker.git for the SSH Repository 
+        git clone git@github.com:jonkesler/EmployeeDirectory.git for the SSH Repository 
         or 
-        git clone https://github.com/jonkesler/budgetTracker.git for the HTTPS Repository
+        git clone https://github.com/jonkesler/EmployeeDirectory.git for the HTTPS Repository
         
 Next, install the application dependencies.
 
-        With Visual Studio, navigate to the budgetTracker directory created when you cloned the Repository.
-        Right click on the server.js file and open a terminal.
+        With Visual Studio, navigate to the EmployeeDirectory directory created when you cloned the Repository.
+        Right click on any file and open a terminal.
         run npm install
      
 Now, run the application in node.
 
         npm start
         
-Finally, open the local application on port 3000 at the URL: `http://localhost:3000`.
-
-**Happy budgeting!**
+Finally, the application will open in your default browser.  The URL will be `http://localhost:3000`.
 
 
-      
+
 ## Demo
 
 A demo of the Online/Offline Budget Tracker application can be found [here](https://jkesleremployeedirectory.herokuapp.com/).
