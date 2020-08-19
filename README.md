@@ -12,7 +12,7 @@
 
 ## Description 
     
-This Budget Tracker will allow you to lable and add or subtact transactions related to your budget.  It will keep a running total of your budget, show a graph of your budget and work on or off line.
+This Employee Directory will provide you with a list of Employees, phone numbers, emails, and dates of birth.  This would be a good tool for managers or HR personel in larger companies.
 
 This application uses a front end implemented with HTML/CSS and an API to return a list of employees that is searchable and sortable by the first name..
 
